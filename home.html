@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ministry of Finance — Home</title>
+  <link rel="stylesheet" href="styles.css"/>
+
+  <style>
+    /* Additional Home Page Styling */
+    .hero-flag {
+      padding: 4.5rem 1rem;
+      text-align: center;
+      background: linear-gradient(90deg, #FF9933 0%, #ffffff 50%, #138808 100%);
+      color: #000;
+      border-bottom: 3px solid #000080;
+    }
+
+    .hero-flag h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      margin-bottom: 0.6rem;
+      color: #000080;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.2rem;
+      margin-top: 2rem;
+    }
+
+    .stat-box {
+      background: #fff;
+      padding: 1.4rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .stat-box h2 {
+      color: #000080;
+      margin: 0 0 0.3rem 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+      color: #000080;
+      font-weight: 800;
+    }
+
+    .service-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .service-card {
+      background: #fff;
+      padding: 1.4rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      transition: 0.2s ease;
+      cursor: pointer;
+      text-decoration: none;
+      color: #000;
+    }
+    .service-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .service-card h3 {
+      color: #138808;
+      margin-bottom: 0.4rem;
+    }
+
+    .announcement {
+      background: #fff;
+      padding: 1.4rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      margin-bottom: 1rem;
+    }
+
+    .announcement h3 {
+      margin-top: 0;
+      color: #FF9933;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="header-inner">
+
+    <div class="brand">
+      <svg class="emblem" viewBox="0 0 64 64">
+        <circle cx="32" cy="20" r="10"></circle>
+        <rect x="16" y="34" width="32" height="16" rx="3"></rect>
+      </svg>
+      <div class="brand-text">
+        <div class="gov">Government of Example</div>
+        <div class="ministry">Ministry of Finance</div>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <button class="nav-toggle">☰</button>
+      <ul class="nav-list" id="primary-menu">
+        <li><a href="home.html" >Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="budget.html">Budget</a></li>
+        <li><a href="policies.html">Policies</a></li>
+        <li><a href="reports.html">Reports</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+
+<!-- HERO SECTION -->
+<section class="hero-flag">
+  <h1>National Financial Governance & Transparency</h1>
+  <p style="font-size:1.25rem; max-width:750px; margin:auto;">
+    Driving economic stability, transparent budgeting, and strategic financial planning
+    for long-term national development.
+  </p>
+  <div style="margin-top:1.5rem;">
+    <a class="btn primary" href="budget.html">View National Budget</a>
+    <a class="btn" href="reports.html">Explore Reports</a>
+  </div>
+</section>
+
+
+<!-- NATIONAL STATS -->
+<section class="container">
+  <h2 class="section-title">National Financial Snapshot</h2>
+
+  <div class="stats">
+    <div class="stat-box">
+      <h2>₹ 20.5 Lakh Crore</h2>
+      <p>Total Revenue</p>
+    </div>
+
+    <div class="stat-box">
+      <h2>₹ 26.1 Lakh Crore</h2>
+      <p>Total Expenditure</p>
+    </div>
+
+    <div class="stat-box">
+      <h2>3.8% of GDP</h2>
+      <p>Fiscal Deficit</p>
+    </div>
+
+    <div class="stat-box">
+      <h2>2024–25</h2>
+      <p>Economic Survey Released</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- SERVICE CARDS -->
+<section class="container">
+  <h2 class="section-title">Public Financial Services</h2>
+
+  <div class="service-cards">
+    <a href="budget.html" class="service-card">
+      <h3>Budget Documents</h3>
+      <p>Complete budget reports, expenditure plans & revenue charts.</p>
+    </a>
+
+    <a href="policies.html" class="service-card">
+      <h3>Fiscal Policies</h3>
+      <p>Tax reforms, financial acts, economic frameworks.</p>
+    </a>
+
+    <a href="reports.html" class="service-card">
+      <h3>Economic Reports</h3>
+      <p>Annual reports, performance reviews, audits.</p>
+    </a>
+
+    <a href="contact.html" class="service-card">
+      <h3>Public Assistance</h3>
+      <p>Helpdesk, grievance support, official communication.</p>
+    </a>
+  </div>
+</section>
+
+
+<!-- ANNOUNCEMENTS -->
+<section class="container">
+  <h2 class="section-title">Latest Announcements</h2>
+
+  <div class="announcement">
+    <h3>Quarterly Fiscal Review Released</h3>
+    <p>The detailed economic performance report for Q4 is now available.</p>
+    <a class="btn small" href="reports.html">Read More</a>
+  </div>
+
+  <div class="announcement">
+    <h3>New MSME Tax Framework</h3>
+    <p>Updated tax guidelines for small and micro enterprises.</p>
+    <a class="btn small" href="policies.html">View Policy</a>
+  </div>
+
+  <div class="announcement">
+    <h3>Public Feedback: Draft Finance Bill</h3>
+    <p>Citizens can now submit suggestions for the 2025 finance bill.</p>
+    <a class="btn small" href="#">Submit Feedback</a>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-col">
+      <h4>About</h4>
+      <p class="small">Empowering national development through financial governance.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <address>
+        Ministry of Finance<br>
+        National Capital<br>
+        Government Plaza
+      </address>
+    </div>
+
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <ul class="social">
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">YouTube</a></li>
+        <li><a href="#">Official News</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <small>© 2025 Ministry of Finance — Government of Example</small>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+  const btn = document.querySelector('.nav-toggle');
+  const menu = document.getElementById('primary-menu');
+  btn.onclick = () => menu.classList.toggle('open');
+</script>
+
+</body>
+</html>
