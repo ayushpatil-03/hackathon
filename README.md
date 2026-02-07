@@ -5,7 +5,9 @@
   </head>
 <body>
   welcome to our website
-  our website is fpr welfare of farmers
+  our website is for welfare of farmers
+  based on auction of products
+  
   
 </body>
 </html>
